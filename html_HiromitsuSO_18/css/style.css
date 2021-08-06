@@ -1,0 +1,372 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html {
+    font-size: 62.5%
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size:1.6rem;
+    line-height:1.5;
+}
+
+/* -----------
+common
+------*/
+
+.wrapper{
+    max-width:1140px;
+    margin:auto;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* -----------
+heaader-image
+------*/
+.header-image-position{
+    position:relative;
+}
+.header-title-both{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate3d(-50%, -50%, 0);
+}
+
+.header-title{
+    margin:0 0 30px 0;
+    font-size:4.0rem;
+    color:white;
+    font-weight:bold;
+}
+.header-subtitle{
+    font-size:2.4rem;
+    color:white;
+    opacity:0.8
+}
+
+
+
+/* -----------
+header
+------*/
+.header-wrapper{
+    display:flex;
+    justify-content:space-between;
+    height:121px;
+    align-items:center;
+    max-width:1140px;
+    margin:auto;
+
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item{
+    margin: 50px 50px 50px 0;
+    font-size:1.6rem;
+
+}
+
+/* -----------
+about
+------*/
+.about-title{
+    padding:60px 0 30px 0;
+    font-size:2.4rem;
+    color:#ffd61a;
+    font-weight:bold;
+    text-transform:uppercase;
+
+}
+.about-subtitle{
+    padding:0 0 60px 0;
+}
+
+.about-text{
+    font-size:1.6rem;
+    color:#222222;
+    padding:0 0 40px 0;
+    
+}
+.about-text-last{
+    padding:0 0 80px 0;
+}
+
+.mid-pics{
+    display:flex;
+    justify-content:space-around
+    
+}
+.pics-wrapper{
+    max-width:1140px;
+    margin:auto;
+}
+/* -----------
+Course
+------*/
+.course-wrapper{
+    max-width:1140px;
+    margin:auto;
+}
+
+.course{
+    padding:60px 0 30px 0;
+    font-size:2.4rem;
+    color:#222222;
+    font-weight:bold;
+    text-transform:uppercase;
+
+}
+.course-text{
+    font-size:1.6rem;
+    padding: 0 0 60px 0;
+}
+
+.course-title{
+    font-size:2.4rem;
+    font-weight:bold;
+    padding:0 0 40px 50px;
+}
+
+.course-description{
+    padding:0 0 0 50px;
+    max-width:480px;
+
+}
+
+.course-block{
+    display:flex;
+    align-items:center
+}
+
+.course-pics{
+    width:570px;
+    height:400px;
+    
+}
+
+.course-block{
+    width:570px;
+    height:400px;
+    background-color: #fafafa;
+}
+
+.floating{
+    float:left;
+}
+
+/* -----------
+news
+------*/
+.news-pics{
+    max-width:300px;
+}
+.news-list{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 0 60px;
+}
+
+.wrapper{
+    margin:auto;
+    width:960px;
+    padding:0 0 60px;
+}
+
+.news-items{
+    width:300px;
+    text-align:left;
+    font-size:1.6rem
+}
+.btn {
+    display:block;
+    width: 300px;
+    font-size: 1.8rem;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color:#fff;
+    text-align: center;
+    margin:auto;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover{
+    opacity:0.6;
+}
+
+/* -----------
+Access
+------*/
+.access-wrapper{
+    max-width:1140px;
+    background-color: #fafafa;
+    margin:auto;
+}
+.map{
+    max-height:300px;
+    width:100%;
+    margin:0 0 60px 0;
+}
+
+.access-title{
+    font-size:2.4rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:black;
+    padding:60px 0 30px 0;
+}
+
+.access-subtitle{
+    font-size:1.6rem;
+    margin:0 0 60px 0 ;
+}
+
+.access-item {
+    float:left;
+    height:50px;
+}
+.access-text{
+    margin-left:140px;
+    height:50px;
+}
+.access-inner{
+    width:500px;
+    margin:auto;
+}
+
+
+/* -----------
+contact
+------*/
+.contact-title{
+    font-size:2.4rem;
+    font-weight:bold;
+    color:#222222;
+    padding:60px 0 30px 0;
+    text-transform:uppercase;
+
+}
+.contact-wrapper{
+   width: 640px;
+   margin:auto;
+}
+
+.contact-subtitle{
+    font-size:1.6rem;
+    color:#222222;
+    padding:0 0 60px 0;
+}
+.contact-text1{
+    font-size:1.6rem;
+    color:#222222;
+    padding:0 0 30px 0 ;
+
+}
+.contact-text2{
+    font-size:1.6rem;
+    color:#222222;
+    padding:0 0 70px 0 ;
+}
+
+.form-inner{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.form-item{
+    width:158px;
+    text-align:left;
+    font-size:1.6rem;
+    padding:8px 64px 0 16px;
+    border: 0.5px solid;
+    border-left:transparent;
+    border-color:#cacaca;
+
+}
+.form-answer{
+    width:398px;
+    border:0.5px solid ;
+    border-right:transparent;
+    border-left:transparent;
+    border-color:#cacaca;
+}
+.form-input{
+    box-sizing:border-box;
+    width: 328px;
+    height:36px;
+    border:solid 0.5px #cacaca;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    margin:8px 64px 8px 8px;
+    border-color:#cacaca;
+    padding:0 0 0 10px;
+
+}
+.form-inputarea{
+    box-sizing:border-box;
+    width: 328px;
+    height:108px;
+    border:solid 0.5px #cacaca;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    margin:8px 64px 8px 8px;
+}
+
+.submit {
+    display:block;
+    width: 300px;
+    font-size: 1.8rem;
+    padding: 21px 0;
+    background-color: #ffd61a;
+    color:#fff;
+    text-align: center;
+    margin:30px auto 140px;
+    border:transparent;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+}
+
+.submit:hover{
+    opacity:0.6;
+}
+
+
+/* -----------
+footer
+------*/
+footer{
+    background-color: #707070;
+    padding:30px 0 30px 0;
+    max-width:1140px;
+    margin:auto;
+}
+
+.footer-text{
+    color:white;
+    font-size:1.6rem;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+@media screen and (max-width:640px){
+    /* ---------------------
+        *about
+    -----------------------*/ 
+
+}
